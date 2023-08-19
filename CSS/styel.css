@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Manrope:wght@300&family=REM:wght@500&family=Raleway:wght@300&family=Ubuntu:wght@300;400&display=swap');
+body{
+    margin: 0px;
+}
+.border{
+    background-color: white;
+    /* width: 30%; */
+    width: 380.781px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 15px;   
+    position: relative;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.laple{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.inputs{
+    text-align: start;
+}
+input{
+    border: none;
+    width: 90%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'REM', sans-serif;
+    
+}
+input::placeholder{
+    padding-left: 2px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+input:focus{
+    outline: none;
+}
+hr{
+    transition: all .2s linear;
+}
+input:focus + hr{
+    color: #005edd;
+    background-color: #005edd;
+    border: .5px solid;
+    border-radius: 20px;
+}
+.Forget{
+    text-align: end;
+    color: transparent;
+    text-decoration: none;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all .2s linear;
+}
+.Forget:hover{
+    color: #005edd;
+}
+button{
+    margin-top: 18px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left , #23364e , #569fff);
+    transition: all .2s linear;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    color: #23364e;
+    font-weight: bold;
+    font-size: 15px;
+}
+.links{
+    margin-top: 50px;
+}
+.or{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.linkk{
+    font-size: 30px;
+    transition: all .6s linear;
+}
+.linkk:hover{
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+.linkk2{
+    color: black;
+}
+.linkk3{
+    color: orangered;
+}
+.links2{
+    /* border: 1px solid red; */
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.finel_or{
+    margin-top: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.finel{
+    color: gray;
+}
+.finel_a{
+    text-decoration: none;
+    color: black;
+    transition: all .2s linear;
+}
+.finel_a:hover{
+    color: #005edd;
+}
+.pass{
+    width: 85%;
+}
+.show{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hiddin{
+    position: absolute;
+    right: 30px;
+    font-size: 19px;
+    padding-top: 2px;
+    cursor: pointer;
+    /* display: none; */
+}
+.pass:focus ~ .hhr{
+    color: #005edd;
+    background-color: #005edd;
+    border: .5px solid;
+    border-radius: 20px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+.laple1{
+    margin: 40px 0px 15px 0px;
+}

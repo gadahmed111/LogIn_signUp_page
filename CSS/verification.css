@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Karla&family=Manrope:wght@300&family=REM:wght@500&family=Raleway:wght@300&family=Ubuntu:wght@300;400&display=swap');
+body{
+    margin: 0px;
+}
+article{
+    width: 340px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+i{
+    font-size: 50px;
+}
+h1,p{
+    margin: 0px;
+}
+h1{
+    margin-top: 20px;
+}
+.inputss{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid ;
+}
+input:focus{
+    outline: none;
+    box-shadow: 1px 1px 20px 4px #75c347;
+    border-radius: 5px 5px 0px 0px;
+}
+button{
+    width: 90%;
+    margin-top: 40px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3e6dec;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: all .2s linear;
+}
+button:active{
+    background-color: #003f77;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  } 
